@@ -106,7 +106,7 @@ class GenericForm extends Component {
                     className={
                       this.props.className + '__button generic-form__button'
                     }
-                    btnText="Save"
+                    btnText="Speichern"
                     type="submit"
                   />
                 </div>

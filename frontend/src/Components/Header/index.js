@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import './index.css';
 import { Link } from 'react-router-dom';
-
-
-import bernLogo from '../../assets/bern-logo.png'
+import logo from '../../assets/logo.jpg'
 
 class Header extends Component {
   render() {
     return (
       <div className='header'>
-        <Link to="/overview"><img src={bernLogo} alt="bern logo"/></Link>
+        <Link to="/overview">{ logo }</Link>
         <h1>Matryoshka</h1>
       </div>
     )

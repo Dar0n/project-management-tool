@@ -1,4 +1,0 @@
-|
-Entwicklung - Unique ID
-            - Status (*)
-            - Tendenz (*)
